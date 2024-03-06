@@ -47,8 +47,8 @@ def hours_prediction(df):
 
   return fig, ax
 
-day_df = pd.read_csv("day.csv")
-hour_df = pd.read_csv("hour.csv")
+day_df = pd.read_csv("https://raw.githubusercontent.com/Avent001/Dashboard-dicoding/master/Bike-sharing-dataset/day.csv")
+hour_df = pd.read_csv("https://raw.githubusercontent.com/Avent001/Dashboard-dicoding/master/Bike-sharing-dataset/hour.csv")
 st.sidebar.title("Bike Sharing Analysis Dashboard")
 
 page = st.sidebar.radio("Select a page", ["Weather Analysis", "Hourly Prediction"])
